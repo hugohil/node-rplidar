@@ -1,9 +1,11 @@
 # node-rplidar
 A Node module to communicate with the RPLidar over USB.
 
+This fork is a temporary fix for issues on Raspberry Pi with [switching `dtr` flag](https://github.com/serialport/node-serialport/issues/2240). It simply uses version `8.0.8` of `serialport` instead of `9.0.7`.
+
 ## installation
 ```
-npm install git+https://git@github.com/eriknoorland/node-rplidar.git
+npm install git+https://git@github.com/hugohil/node-rplidar.git
 ```
 
 ## usage
